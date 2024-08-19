@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ProjetoMosquitoVelho.exe" version="1.0.0.0" publicKeyToken="b01c8dc0bf5d25a0" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ProjetoMosquitoVelho" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ProjetoMosquitoVelho.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProjetoMosquitoVelho.exe" size="797192">
+      <assemblyIdentity name="ProjetoMosquitoVelho" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>n43ZpDf7lD48ysogjs3lGY3oM6THOACJ6OS9vhXYbJg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Logo.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>86uiB6sNkVgBhPq4+xFOH9U0QQAl9/rT9491A32uJDY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ProjetoMosquitoVelho.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SENACEDU\joao.pfnascimento2" issuerKeyHash="33d25ba11f2e2c479af1c3a0879f29a1b518ca58" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NuhxRUdoXwdbXy0422SSAwXWTM0+crAx0NIyi5VRqv0=</DigestValue></Reference></SignedInfo><SignatureValue>kdguT0TO2xTH/YbMfhONt45vuVf6s92c4bMUXD8PNuH5NelcaX95O4MgzHZ2UMgb2xZQe5gVcxX280qH7Ql4mMaosdDT0eVHc4NbNF1grXFKf+pJtHRHUw2GUGirsl+TlXf95XsCS3m9h5tfUS35R/f4sS3JnVog/U7r0OxrO3I=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xxb0gc1cHgaGMa6NuOivDkLPlJcTBinvsC4lK98rU2XHKevUZCJ/yqfdDkOlAXAd5BrsZsS7LMkoqOd83TNfqO/oLJ0Z0FBVwyyQ2cMQl5MJnye4FRgLSIAxPMFH7L3tH4/iBD3DTbuxpSvm5rf7NH6ytNgjRbd6ZZwaNCtB9pE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fdaa51958b32d2d031b0723ecd4cd605039264db382d5f5b075f68474571e836" Description="" Url=""><as:assemblyIdentity name="ProjetoMosquitoVelho.exe" version="1.0.0.0" publicKeyToken="b01c8dc0bf5d25a0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SENACEDU\joao.pfnascimento2</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/3q7BbIFDzeCciPdyIFHolyYJKKpadGOhgvAS/3Z7F8=</DigestValue></Reference></SignedInfo><SignatureValue>AbjNTsMO5M/hqf98MY+KJIS3BjCF0cRyYZzFqrO6hbdzqOwQphCiJ4qdZSWGEI+UqrO+HaAeBpOZMPW48vJhylWvw2ebDbk5GqUc97NJEpHal24KsEWUJ7TkYy4feyWWSafgawutED4liN/DVj1MtyYHmlHLWZTXLJAQVlffD5s=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xxb0gc1cHgaGMa6NuOivDkLPlJcTBinvsC4lK98rU2XHKevUZCJ/yqfdDkOlAXAd5BrsZsS7LMkoqOd83TNfqO/oLJ0Z0FBVwyyQ2cMQl5MJnye4FRgLSIAxPMFH7L3tH4/iBD3DTbuxpSvm5rf7NH6ytNgjRbd6ZZwaNCtB9pE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQNW9HwJYYk4RKNQK8go/UDTANBgkqhkiG9w0BAQsFADBBMT8wPQYDVQQDHjYAUwBFAE4AQQBDAEUARABVAFwAagBvAGEAbwAuAHAAZgBuAGEAcwBjAGkAbQBlAG4AdABvADIwHhcNMjQwODE2MTQ0ODM0WhcNMjUwODE2MjA0ODM0WjBBMT8wPQYDVQQDHjYAUwBFAE4AQQBDAEUARABVAFwAagBvAGEAbwAuAHAAZgBuAGEAcwBjAGkAbQBlAG4AdABvADIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMcW9IHNXB4GhjGujbjorw5Cz5SXEwYp77AuJSvfK1Nlxynr1GQif8qn3Q5DpQFwHeQa7GbEuyzJKKjnfN0zX6jv6CydGdBQVcMskNnDEJeTCZ8nuBUYC0iAMTzBR+y97R+P4gQ9w027saUr5ua3+zR+srTYI0W3emWcGjQrQfaRAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAGxjdmcx/F5uP+DIfed+ARPDz027SkVRoyuDkmvnLVaPgv527kdA5n14jtYKn7k/ArLxVi3y3sPiKL6uH1dVXIWDtBol7aYoR4G/X2xmtfniYU5QQE4etgCu2XfI7tqT4PC8DYeaNqQ/paMS0QCSgq/VhZvsDfDj3n6TZi5dglHY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
